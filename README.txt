@@ -20,6 +20,8 @@ Scenario1: TC_001_AcceptCoinValidation()- validates if entered coins are either 
 
 Scenario2: TC_002_SelectProductValidation() - validates if product not available then 'select other product' assertion done.
 
-Scenario3: TC_003_RefundValidation() - User enters coin and cancel request. Asserts money is refunded.
+Scenario3: TC_004_RefundValidation() - User enters coin and cancel request. Asserts money is refunded.
 
-Scenario4: TC_004_RemainingChangeValidation() - give selected product and if remaining change greater than 0, assert change is given.
+Scenario4: TC_003_RemainingChangeValidation() - give selected product and if remaining change greater than 0, assert change is given.
+
+Scenario5: TC_005_Reset() - resets the value to the Input.properties inventory testdata of 'accept.products' and 'accepted.coins'. Eg. change testdata Input.propeties 'accept.coins' ='1,5,10' after reset it gets changed to original inventory of '1,5,10,25'
