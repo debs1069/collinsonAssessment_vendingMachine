@@ -49,6 +49,7 @@ public class Product_availability {
     public void remainingChange(int i) {
         //find and dispatched from coin inventory,eg. if need to return 15p then need to find 5p and 10p coin if no 10p then 35p coin,if no change available then display 'no change available' message
         Assert.assertEquals("remaining amt is dispatched", true, true);
+        System.out.println("remaining amt. that is dispatched: " +i);
     }
 
 
